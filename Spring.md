@@ -12,5 +12,6 @@ The Spring ecosystem has grown substantially and includes several major projects
 **Spring Boot** is probably the most widely used — it simplifies setup with auto-configuration, embedded servers, and opinionated defaults so you can get a production-ready app running with minimal boilerplate. <br>
 **Spring MVC** and **Spring WebFlux** handle web applications (the latter for reactive/non-blocking programming). <br>
 **Spring Data** simplifies database access across relational and NoSQL stores. <br>
-**Spring Security** handles authentication and authorization. Spring Cloud provides tools for building distributed systems and microservices.<br>
+**Spring Security** handles authentication and authorization. <br> 
+**Spring Cloud** provides tools for building distributed systems and microservices.<br>
 A typical modern Spring Boot app can be started with just a few annotations like `@SpringBootApplication`, `@RestController`, and `@Autowired`, and Spring handles the rest — spinning up an embedded Tomcat or Netty server, configuring data sources, and wiring everything together.
